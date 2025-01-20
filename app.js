@@ -1,6 +1,6 @@
  function checkFortune() {
             var  zodiac signs = document.getElementById(' zodiac signs-select').value;
-            var food = parseInt(document.getElementById('food  -input').value, 12);
+            var food = parseInt(document.getElementById('food  -input').value, 10);
             var result = "ラッキーカラー"; // デフォルトの値
 
             if ( zodiac signs === "うお座" &&  food  === ラーメン) {
