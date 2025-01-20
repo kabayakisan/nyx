@@ -1,56 +1,56 @@
  function checkFortune() {
             var the zodiac signs = document.getElementById('the zodiac signs-select').value;
-            var number = parseInt(document.getElementById('number-input').value, 12);
+            var blood type = parseInt(document.getElementById(' blood type-input').value, 12);
             var result = "ラッキーカラー"; // デフォルトの値
 
-            if (the zodiac signs === "うお座" && number === 2) {
+            if (the zodiac signs === "うお座" &&  blood type === A) {
   　　　　　　 result = "青";
 　　　　　　
-　　　　    } else if (the zodiac signs  === "うお座" && number === 3) {
+　　　　    } else if (the zodiac signs  === "うお座" &&  blood type === B) {
                 result = "青";              
-            } else if (the zodiac signs === "みずがめ座" && number === 1) {
+            } else if (the zodiac signs === "みずがめ座" &&  blood type === O) {
                 result = "ピンク";
-            } else if (the zodiac signs === "みずがめ座" && number === 2) {
+            } else if (the zodiac signs === "みずがめ座" &&  blood type === AB) {
                 result = "ピンク";
-            } else if (the zodiac signs === "おとめ座" && number === 8) {
+            } else if (the zodiac signs === "おとめ座" &&  blood type === A) {
                 result = "赤";
- 　　　　　 } else if (the zodiac signs === "おとめ座" && number === 9) {
+ 　　　　　 } else if (the zodiac signs === "おとめ座" &&  blood type === B) {
                 result = "赤";
-            } else if (the zodiac signs === "かに座" && number === 6) {
+            } else if (the zodiac signs === "かに座" &&  blood type === O) {
                 result = "水色";
-　　　　　　} else if (the zodiac signs === "かに座" && number === 7) {
+　　　　　　} else if (the zodiac signs === "かに座" &&  blood type === AB) {
                 result = "水色";
-            } else if (the zodiac signs  === "おひつじ座" && number === 3) {
+            } else if (the zodiac signs  === "おひつじ座" &&  blood type === A) {
                 result = "黒";
-　　　　　  } else if (the zodiac signs  === "おひつじ座" && number === 4) {
+　　　　　  } else if (the zodiac signs  === "おひつじ座" &&  blood type === B) {
                 result = "黒";
-            } else if (the zodiac signs === "ふたご座" && number === 5) {
+            } else if (the zodiac signs === "ふたご座" &&  blood type === O) {
                 result = "オレンジ";
-            } else if (the zodiac signs === "ふたご座" && number === 6) {
+            } else if (the zodiac signs === "ふたご座" &&  blood type === AB) {
                 result = "オレンジ";
-            } else if (the zodiac signs  === "てんびん座" && number === 9) {
+            } else if (the zodiac signs  === "てんびん座" &&  blood type === A) {
                 result = "ゴールド";    
-            } else if (the zodiac signs  === "てんびん座" && number === 10) {
+            } else if (the zodiac signs  === "てんびん座" &&  blood type === B) {
                 result = "ゴールド";               
-            } else if (the zodiac signs  === "さそり座" && number === 10) {
+            } else if (the zodiac signs  === "さそり座" &&  blood type === O) {
                 result = "パープル";
-            } else if (the zodiac signs  === "さそり座" && number === 11) {
+            } else if (the zodiac signs  === "さそり座" &&  blood type === AB) {
                 result = "パープル";
-            } else if (the zodiac signs  === "しし座" && number === 7) {
+            } else if (the zodiac signs  === "しし座" &&  blood type === A) {
                 result = "黄色";
-            } else if (the zodiac signs  === "しし座" && number === 8) {
+            } else if (the zodiac signs  === "しし座" &&  blood type === B) {
                 result = "黄色";
-          　} else if (the zodiac signs  === "おうし座" && number === 4) {
+          　} else if (the zodiac signs  === "おうし座" &&  blood type === O) {
                 result = "白";
-            } else if (the zodiac signs  === "おうし座" && number === 5) {
+            } else if (the zodiac signs  === "おうし座" &&  blood type === AB) {
                 result = "白";             
- 　　　　　 } else if (the zodiac signs  === "いて座" && number === 11) {
+ 　　　　　 } else if (the zodiac signs  === "いて座" &&  blood type === A) {
                 result = "黄緑";
-            } else if (the zodiac signs  === "いて座" && number === 12) {
+            } else if (the zodiac signs  === "いて座" &&  blood type === B) {
                 result = "黄緑";
-　　　　　　} else if (the zodiac signs  === "やぎ座" && number === 12) {
+　　　　　　} else if (the zodiac signs  === "やぎ座" &&  blood type === O) {
                 result = "ベージュ";
-　　　　　　} else if (the zodiac signs  === "やぎ座" && number === 1) {
+　　　　　　} else if (the zodiac signs  === "やぎ座" &&  blood type === AB) {
                 result = "ベージュ";  
                  
 
