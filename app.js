@@ -1,10 +1,9 @@
-
 function checkFortune() {
     var zodiacSigns = document.getElementById('zodiac-signs-select').value;
     var number = parseInt(document.getElementById('number-input').value, 10);
     var result = "ラッキーカラー"; // デフォルトの値
  
-    // 星座と数字に基づいてラッキーカラーを決定
+     
     if (zodiacSigns === "うお座" && number === 1) {
         result = "青";
     } else if (zodiacSigns === "うお座" && number === 2) {
@@ -55,7 +54,7 @@ function checkFortune() {
         result = "ベージュ";
     }
  
-    // 結果を表示
+    
     document.getElementById('result-output').innerText = "あなたのラッキーカラーは【" + result + "】です";
 }
-コンテキスト メニューあり
+
