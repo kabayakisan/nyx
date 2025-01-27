@@ -1,58 +1,61 @@
- function checkFortune() {
-            var  zodiac signs = document.getElementById(' zodiac signs-select').value;
-            var number = parseInt(document.getElementById(' number   -input').value, 10);
-            var result = "ラッキーカラー"; // デフォルトの値
 
-            if ( zodiac signs === "うお座" &&   number  === １) {
-  　　　　　　 result = "青";
-　　　　　　
-　　　　    } else if ( zodiac signs  === "うお座" &&   number  === ２) {
-                result = "青";              
-            } else if ( zodiac signs === "みずがめ座" &&   number   === ３) {
-                result = "ピンク";
-            } else if ( zodiac signs === "みずがめ座" &&   number  ===　４) {
-                result = "ピンク";
-            } else if ( zodiac signs === "おとめ座" &&   number  === １) {
-                result = "赤";
- 　　　　　 } else if ( zodiac signs === "おとめ座" &&   number  === ２) {
-                result = "赤";
-            } else if ( zodiac signs === "かに座" &&   number   === ３) {
-                result = "水色";
-　　　　　　} else if ( zodiac signs === "かに座" &&   number   === ４) {
-                result = "水色";
-            } else if ( zodiac signs  === "おひつじ座" &&   number   === １) {
-                result = "黒";
-　　　　　  } else if ( zodiac signs  === "おひつじ座" &&   number   === ２) {
-                result = "黒";
-            } else if ( zodiac signs === "ふたご座" &&   number  === ３) {
-                result = "オレンジ";
-            } else if ( zodiac signs === "ふたご座" &&   number   === ４) {
-                result = "オレンジ";
-            } else if ( zodiac signs  === "てんびん座" &&   number   === １) {
-                result = "ゴールド";    
-            } else if ( zodiac signs  === "てんびん座" &&   number   === ２) {
-                result = "ゴールド";               
-            } else if ( zodiac signs  === "さそり座" &&   number  === ３) {
-                result = "パープル";
-            } else if ( zodiac signs  === "さそり座" &&   number   === ４) {
-                result = "パープル";
-            } else if ( zodiac signs  === "しし座" &&   number   === １) {
-                result = "黄色";
-            } else if ( zodiac signs  === "しし座" &&   number  === ２) {
-                result = "黄色";
-          　} else if ( zodiac signs  === "おうし座" &&   number   === ３) {
-                result = "白";
-            } else if ( zodiac signs  === "おうし座" &&   number   === ４) {
-                result = "白";             
- 　　　　　 } else if ( zodiac signs  === "いて座" &&   number   === １) {
-                result = "黄緑";
-            } else if ( zodiac signs  === "いて座" &&   number   === ２) {
-                result = "黄緑";
-　　　　　　} else if ( zodiac signs  === "やぎ座" &&   number   === ３) {
-                result = "ベージュ";
-　　　　　　} else if ( zodiac signs  === "やぎ座" &&   number   === ４) {
-                result = "ベージュ";  
-                 
-
-　　　　　　
-             document.getElementById('result-output').innerText = "あなたのラッキーカラーは【" + result + "】です";
+function checkFortune() {
+    var zodiacSigns = document.getElementById('zodiac-signs-select').value;
+    var number = parseInt(document.getElementById('number-input').value, 10);
+    var result = "ラッキーカラー"; // デフォルトの値
+ 
+    // 星座と数字に基づいてラッキーカラーを決定
+    if (zodiacSigns === "うお座" && number === 1) {
+        result = "青";
+    } else if (zodiacSigns === "うお座" && number === 2) {
+        result = "青";
+    } else if (zodiacSigns === "みずがめ座" && number === 3) {
+        result = "ピンク";
+    } else if (zodiacSigns === "みずがめ座" && number === 4) {
+        result = "ピンク";
+    } else if (zodiacSigns === "おとめ座" && number === 1) {
+        result = "赤";
+    } else if (zodiacSigns === "おとめ座" && number === 2) {
+        result = "赤";
+    } else if (zodiacSigns === "かに座" && number === 3) {
+        result = "水色";
+    } else if (zodiacSigns === "かに座" && number === 4) {
+        result = "水色";
+    } else if (zodiacSigns === "おひつじ座" && number === 1) {
+        result = "黒";
+    } else if (zodiacSigns === "おひつじ座" && number === 2) {
+        result = "黒";
+    } else if (zodiacSigns === "ふたご座" && number === 3) {
+        result = "オレンジ";
+    } else if (zodiacSigns === "ふたご座" && number === 4) {
+        result = "オレンジ";
+    } else if (zodiacSigns === "てんびん座" && number === 1) {
+        result = "ゴールド";
+    } else if (zodiacSigns === "てんびん座" && number === 2) {
+        result = "ゴールド";
+    } else if (zodiacSigns === "さそり座" && number === 3) {
+        result = "パープル";
+    } else if (zodiacSigns === "さそり座" && number === 4) {
+        result = "パープル";
+    } else if (zodiacSigns === "しし座" && number === 1) {
+        result = "黄色";
+    } else if (zodiacSigns === "しし座" && number === 2) {
+        result = "黄色";
+    } else if (zodiacSigns === "おうし座" && number === 3) {
+        result = "白";
+    } else if (zodiacSigns === "おうし座" && number === 4) {
+        result = "白";
+    } else if (zodiacSigns === "いて座" && number === 1) {
+        result = "黄緑";
+    } else if (zodiacSigns === "いて座" && number === 2) {
+        result = "黄緑";
+    } else if (zodiacSigns === "やぎ座" && number === 3) {
+        result = "ベージュ";
+    } else if (zodiacSigns === "やぎ座" && number === 4) {
+        result = "ベージュ";
+    }
+ 
+    // 結果を表示
+    document.getElementById('result-output').innerText = "あなたのラッキーカラーは【" + result + "】です";
+}
+コンテキスト メニューあり
