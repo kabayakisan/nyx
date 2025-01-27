@@ -6,9 +6,9 @@ function checkFortune() {
      
     if (animal === "うさぎ" && number === 1) {
         result = "青";
-        if (animal === "うさぎ" && number === 2) {
+ } else  if (animal === "うさぎ" && number === 2) {
         result = "ピンク";
-            if (animal === "うさぎ" && number === 3) {
+    } else  if (animal === "うさぎ" && number === 3) {
         result = "赤";
     } else if (animal  === "うさぎ" && number === 4) {
         result = "黒";
